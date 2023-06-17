@@ -7,7 +7,7 @@ if (arrowExercise1) {
   }
 
   ask(
-    "Do you agree?",
+    "Do you agree? ",
     () => {
       alert("You agreed.");
     },
