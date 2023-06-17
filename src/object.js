@@ -1,19 +1,19 @@
 // Hello, object
-let objectExercise1 = confirm("start first practice object(Hello, object)?");
+let objectExercise1 = confirm('start first practice object(Hello, object)?');
 if (objectExercise1) {
   const user = {};
   //add
-  user.name = "John";
-  user.surname = "Smith";
+  user.name = 'John';
+  user.surname = 'Smith';
   //change
-  user.name = "Pete";
+  user.name = 'Pete';
   //delete
   delete user.name;
 }
 
 // Check for emptiness
 let objectExercise2 = confirm(
-  "start second practice object(Check for emptiness)?"
+  'start second practice object(Check for emptiness)?'
 );
 if (objectExercise2) {
   let schedule = {};
@@ -29,7 +29,7 @@ if (objectExercise2) {
 
 // Sum object properties
 let objectExercise3 = confirm(
-  "start third practice object(Sum object properties)?"
+  'start third practice object(Sum object properties)?'
 );
 if (objectExercise3) {
   let sumVal = 0;
@@ -48,19 +48,19 @@ if (objectExercise3) {
 
 // Multiply numeric property values by 2
 let objectExercise4 = confirm(
-  "start third practice object(Multiply numeric property values by 2)?"
+  'start third practice object(Multiply numeric property values by 2)?'
 );
 if (objectExercise4) {
   let menu = {
     width: 200,
     height: 300,
-    title: "My menu",
+    title: 'My menu',
   };
   multiplyNumeric(menu);
 
   function multiplyNumeric(menu) {
     Object.keys(menu).forEach((key) => {
-      if (typeof menu[key] === "number") {
+      if (typeof menu[key] === 'number') {
         menu[key] = menu[key] * 2;
       }
     });

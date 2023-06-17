@@ -3,23 +3,23 @@ let exercise1 = confirm(
   "start first practice(Rewrite the function using '?' or '||') ?"
 );
 if (exercise1) {
-  let ageMount = prompt("enter age");
+  let ageMount = prompt('enter age');
   checkAge(ageMount);
 
   function checkAge(age) {
-    return age > 18 ? true : confirm("Did parents allow you?");
+    return age > 18 ? true : confirm('Did parents allow you?');
   }
 
   function checkAge(age) {
-    return age > 18 || confirm("Did parents allow you?");
+    return age > 18 || confirm('Did parents allow you?');
   }
 }
 
 // EXERCISE 2: Function min(a, b)
-let exercise2 = confirm("start second practice(Function min(a, b))?");
+let exercise2 = confirm('start second practice(Function min(a, b))?');
 if (exercise2) {
-  let firstValue = prompt("enter first value");
-  let secondValue = prompt("enter second value");
+  let firstValue = prompt('enter first value');
+  let secondValue = prompt('enter second value');
   min(firstValue, secondValue);
 
   function min(a, b) {
@@ -32,10 +32,10 @@ if (exercise2) {
 }
 
 // EXERCISE 3:Function pow(x,n)
-let exercise3 = confirm("start third practice(Function pow(x,n))?");
+let exercise3 = confirm('start third practice(Function pow(x,n))?');
 if (exercise3) {
-  let pFirstValue = prompt("enter first value");
-  let pSecondValue = prompt("enter second value");
+  let pFirstValue = prompt('enter first value');
+  let pSecondValue = prompt('enter second value');
 
   pow(pFirstValue, pSecondValue);
 

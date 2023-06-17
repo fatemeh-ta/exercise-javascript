@@ -1,5 +1,6 @@
 // Rewrite with arrow functions
-let arrowExercise1 = confirm("start first practice arrow function?");
+let arrowExercise1 = confirm('start first practice arrow function?');
+
 if (arrowExercise1) {
   function ask(question, yes, no) {
     if (confirm(question)) yes();
@@ -7,13 +8,13 @@ if (arrowExercise1) {
   }
 
   ask(
-    "Do you agree? ",
+    'Do you agree? ',
     () => {
-      alert("You agreed.");
+      alert('You agreed.');
     },
 
     () => {
-      alert("You canceled the execution.");
+      alert('You canceled the execution.');
     }
   );
 }
